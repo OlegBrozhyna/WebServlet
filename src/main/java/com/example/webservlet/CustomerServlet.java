@@ -19,6 +19,7 @@ public class CustomerServlet extends HttpServlet {
                 "Ukraine", "Lviv",
                 " Car ", "GMS", 27_02_2023, 0501231232,
                 05, 7777, 1232, 35),
+
                 new Customer("Anje", "Jakson", "German", "Dresden", "Phones",
                         "GS", 22_02_2023 , 0507522526 , 02, 8957, 45));
     }
@@ -36,6 +37,7 @@ public class CustomerServlet extends HttpServlet {
         StringBuilder sb = new StringBuilder();
         for (Customer customer : customers) {
             sb.append("<tr><td>")
+                    .append(customer.getName())
                     .append("<td><td>")
                     .append(customer.getAdres())
                     .append("<td><tr>");
