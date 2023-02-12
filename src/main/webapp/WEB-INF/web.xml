@@ -19,16 +19,6 @@
         <servlet-name>Calculator</servlet-name>
         <url-pattern>/calculate</url-pattern>
     </servlet-mapping>
-    <servlet>
-        <servlet-name>CustomerServlet</servlet-name>
-        <servlet-class>com.example.webservlet.CustomerServlet</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>CustomerServlet</servlet-name>
-        <url-pattern>/customers</url-pattern>
-    </servlet-mapping>
-
-
 
 
     <welcome-file-list>
