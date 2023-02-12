@@ -43,7 +43,7 @@ public class Customer {
         this.age = age;
     }
 
-    public Customer() {
+    public Customer(String anje, String jakson, String german, String dresden, String phones, String gs, int i, int i1, int i2, int i3, int i4) {
     }
 
     public String getName() {
