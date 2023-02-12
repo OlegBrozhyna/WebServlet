@@ -10,6 +10,7 @@
     List<Customer> customers = (List<Customer>) request.getAttribute("customerList");
     for (Customer customer : customers) {
         response.getWriter().println(customers.get(0));
+        response.getWriter().println(customers.get(1));
 
     }
 %>
