@@ -23,12 +23,12 @@ public class Customer {
 
     int postCode;
 
-    int age;
+    int kilogram;
 
     public Customer(String name, String surName, String country, String adres,
                     String product,
                     String company, int orderData, int phoneNumber, int id,
-                    int financeId, int postCode, int age) {
+                    int financeId, int postCode, int kilogram) {
         this.name = name;
         this.surName = surName;
         this.country = country;
@@ -40,7 +40,7 @@ public class Customer {
         this.id = id;
         this.financeId = financeId;
         this.postCode = postCode;
-        this.age = age;
+        this.kilogram = kilogram;
     }
 
     public Customer(String anje, String jakson, String german, String dresden, String phones, String gs, int i, int i1, int i2, int i3, int i4) {
@@ -134,12 +134,12 @@ public class Customer {
         this.postCode = postCode;
     }
 
-    public int getAge() {
-        return age;
+    public int getKilogram() {
+        return kilogram;
     }
 
     public void setAge(int age) {
-        this.age = age;
+        this.kilogram = kilogram;
     }
 
     @Override
@@ -156,7 +156,7 @@ public class Customer {
                 ", id=" + id +
                 ", financeId=" + financeId +
                 ", postCode=" + postCode +
-                ", age=" + age +
+                ", kilogram=" + kilogram +
                 '}';
     }
 }
