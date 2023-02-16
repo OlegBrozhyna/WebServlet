@@ -1,5 +1,6 @@
-package com.example.webservlet;
+package Customers;
 
+import Customers.Customer;
 import jakarta.servlet.*;
 import jakarta.servlet.http.*;
 import jakarta.servlet.annotation.*;

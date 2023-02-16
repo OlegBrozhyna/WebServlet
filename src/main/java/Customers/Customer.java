@@ -1,4 +1,4 @@
-package com.example.webservlet;
+package Customers;
 
 public class Customer {
     String name;
