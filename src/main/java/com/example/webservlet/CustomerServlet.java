@@ -58,25 +58,7 @@ public class CustomerServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         request.setAttribute("customerList", customers);
-        request.setAttribute("customers", getCusomerTable());
         request.getRequestDispatcher("/customers.jsp").forward(request, response);
-
-
-    }
-
-    private Object getCusomerTable() {
-        StringBuilder sb = new StringBuilder();
-        for (Customer customer : customers) {
-            sb.append("<tr><td>")
-                    .append(customer.getName())
-                    .append("<td><td>")
-                    .append(customer.getAdres())
-                    .append("<td><tr>");
-
-
-        }
-        return sb.toString();
-
 
     }
 }
