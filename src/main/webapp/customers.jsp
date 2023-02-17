@@ -18,9 +18,11 @@
     </style>
 </head>
 <body>
+
 <div class="container">
-    <h2>Customers table</h2>
-    <table class="table table-silver table-striped table-bordered table-hover">
+
+    <div class="text-bg-secondary p-3"><h2>Customers table</h2></div>
+    <table class="table table-bordered border-primary table-bordered table-hover">
         <thead>
         <tr>
         <th>Name </th>
