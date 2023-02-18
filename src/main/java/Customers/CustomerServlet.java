@@ -9,7 +9,7 @@ import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;
 
-@WebServlet(name = "CustomerServlet", value = "/CustomerServlet")
+@WebServlet(urlPatterns = "/customers/*") //Annotated
 public class CustomerServlet extends HttpServlet {
     private List<Customer> customers
             = Arrays.asList(new Customer("Rico", "Jamson",
