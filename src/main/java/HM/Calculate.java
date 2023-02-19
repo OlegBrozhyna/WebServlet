@@ -9,8 +9,8 @@ public class Calculate {
 
     public static void main(String[] args) {
         Set<Method> annotatedMethods = new HashSet<>();
-        //Перебирає класи в ієрархії
         Set<Parameter> annotatedParameters = new HashSet<>();
+        //Перебирає класи в ієрархії
         for (Class<?> clazz = MethodAnnotation.class;clazz !=null; clazz.getSuperclass()){
            // Перебір методів у кожному класі для
             for (Method method:clazz.getDeclaredMethods()) {
