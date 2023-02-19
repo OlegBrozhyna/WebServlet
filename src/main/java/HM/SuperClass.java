@@ -5,14 +5,8 @@ import annotation.FirstAnnotation;
 public class SuperClass {
     public class SuperClas {
         @MyAnnotation
+        long a =5;
+        long b =2;
 
-
-        int a =5;
-        int b =2;
-        @MyAnnotation
-        public  void SuperClassMethod(int a, long b, float f){}
-        private void SuperPrivatMethod(){}
-        protected void SuperProtoctedMethod(){}
-        void SuperDefaultMethod(){}
     }
 }

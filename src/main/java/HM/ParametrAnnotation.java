@@ -3,7 +3,7 @@ package HM;
 @MyAnnotation
 public class ParametrAnnotation extends MethodAnnotation{
 @MyAnnotation
-  public int a =20;
+  long a =20;
 @MyAnnotation
- public int b =10;
+   long b =10;
 }
