@@ -1,9 +1,9 @@
 package HM;
-
+@ParametrAnnotate
 @MyAnnotation
 public class ParametrAnnotation extends MethodAnnotation{
-@MyAnnotation
+@ParametrAnnotate
   long a =20;
-@MyAnnotation
+@ParametrAnnotate
    long b =10;
 }
